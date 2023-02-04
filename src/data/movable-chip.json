@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "text": "suy thoái kinh tế",
+    "belongTo": [1, 2]
+  },
+  {
+    "id": 2,
+    "text": "khoa học kỹ thuật phát triển thấp",
+    "belongTo": []
+  },
+  {
+    "id": 3,
+    "text": "pháp luật yếu kém",
+    "belongTo": []
+  },
+  {
+    "id": 4,
+    "text": "thiếu trách nhiệm trong QHQT",
+    "belongTo": []
+  },
+  {
+    "id": 5,
+    "text": "lạm phát",
+    "belongTo": []
+  },
+  {
+    "id": 6,
+    "text": "lương thấp",
+    "belongTo": []
+  },
+  {
+    "id": 7,
+    "text": "bế quan toả cảng",
+    "belongTo": []
+  },
+  {
+    "id": 8,
+    "text": "xung đọt thương mại với quốc gia khác",
+    "belongTo": []
+  },
+  {
+    "id": 9,
+    "text": "suy thoái kinh tế",
+    "belongTo": []
+  },
+  {
+    "id": 10,
+    "text": "nội gián",
+    "belongTo": []
+  },
+  {
+    "id": 11,
+    "text": "lạm dụng quyền lực",
+    "belongTo": []
+  },
+  {
+    "id": 12,
+    "text": "mâu thuẫn nội bộ",
+    "belongTo": []
+  },
+  {
+    "id": 13,
+    "text": "quốc phòng lỏng lẻo",
+    "belongTo": []
+  }
+]

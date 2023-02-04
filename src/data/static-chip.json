@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "text": "Phát triển kinh tế",
+    "belongTo": []
+  },
+  {
+    "id": 2,
+    "text": "Chống tham nhũng",
+    "belongTo": []
+  },
+  {
+    "id": 3,
+    "text": "Quan hệ quốc tế hài hòa",
+    "belongTo": []
+  },
+  {
+    "id": 4,
+    "text": "Phát triển quân đội",
+    "belongTo": []
+  }
+]
