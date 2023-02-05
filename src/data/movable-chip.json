@@ -1,67 +1,62 @@
 [
   {
     "id": 1,
-    "text": "suy thoái kinh tế",
-    "belongTo": [1, 2]
+    "text": "Suy thoái kinh tế",
+    "belongTo": [1]
   },
   {
     "id": 2,
-    "text": "khoa học kỹ thuật phát triển thấp",
-    "belongTo": []
+    "text": "Khoa học kỹ thuật phát triển thấp",
+    "belongTo": [1]
   },
   {
     "id": 3,
-    "text": "pháp luật yếu kém",
-    "belongTo": []
+    "text": "Pháp luật yếu kém",
+    "belongTo": [2]
   },
   {
     "id": 4,
-    "text": "thiếu trách nhiệm trong QHQT",
-    "belongTo": []
+    "text": "Thiếu trách nhiệm trong QHQT",
+    "belongTo": [3]
   },
   {
     "id": 5,
-    "text": "lạm phát",
-    "belongTo": []
+    "text": "Lạm phát",
+    "belongTo": [1]
   },
   {
     "id": 6,
-    "text": "lương thấp",
-    "belongTo": []
+    "text": "Lương thấp",
+    "belongTo": [1, 2]
   },
   {
     "id": 7,
-    "text": "bế quan toả cảng",
-    "belongTo": []
+    "text": "Bế quan toả cảng",
+    "belongTo": [3]
   },
   {
     "id": 8,
-    "text": "xung đọt thương mại với quốc gia khác",
-    "belongTo": []
-  },
-  {
-    "id": 9,
-    "text": "suy thoái kinh tế",
-    "belongTo": []
+    "text": "Xung đột thương mại với quốc gia khác",
+    "belongTo": [3]
   },
   {
     "id": 10,
-    "text": "nội gián",
-    "belongTo": []
+    "text": "Nội gián",
+    "belongTo": [4]
   },
   {
     "id": 11,
-    "text": "lạm dụng quyền lực",
-    "belongTo": []
+    "text": "Lạm dụng quyền lực",
+    "belongTo": [2]
   },
   {
     "id": 12,
-    "text": "mâu thuẫn nội bộ",
-    "belongTo": []
+    "text": "Mâu thuẫn nội bộ",
+    "belongTo": [3, 4]
   },
   {
     "id": 13,
-    "text": "quốc phòng lỏng lẻo",
-    "belongTo": []
+    "text": "Quốc phòng lỏng lẻo",
+    "belongTo": [4]
   }
 ]

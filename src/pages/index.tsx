@@ -33,7 +33,7 @@ export default function Home() {
               Các tác nhân chống phá
             </h1>
             {/* Drop zone, store draggable chips */}
-            <div className="border h-full mt-5">
+            <div className="border mt-5">
               <DraggableChipContainer chips={movableChipData} />
             </div>
           </div>

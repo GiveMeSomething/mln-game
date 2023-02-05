@@ -32,10 +32,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:11.10.5"],\
             ["@mui/material", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:5.11.7"],\
             ["@next/font", "npm:13.1.6"],\
+            ["@types/canvas-confetti", "npm:1.6.0"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["autoprefixer", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:10.4.13"],\
+            ["canvas-confetti", "npm:1.6.0"],\
             ["eslint", "npm:8.32.0"],\
             ["eslint-config-next", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:13.1.6"],\
             ["next", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:13.1.6"],\
@@ -940,6 +942,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/canvas-confetti", [\
+        ["npm:1.6.0", {\
+          "packageLocation": "./.yarn/cache/@types-canvas-confetti-npm-1.6.0-f81e670b3e-e1bd2bc81e.zip/node_modules/@types/canvas-confetti/",\
+          "packageDependencies": [\
+            ["@types/canvas-confetti", "npm:1.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/json5", [\
         ["npm:0.0.29", {\
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
@@ -1585,6 +1596,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001450-728fe790ae-511b360bfc.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
             ["caniuse-lite", "npm:1.0.30001450"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["canvas-confetti", [\
+        ["npm:1.6.0", {\
+          "packageLocation": "./.yarn/cache/canvas-confetti-npm-1.6.0-6705a317f0-be19e3be73.zip/node_modules/canvas-confetti/",\
+          "packageDependencies": [\
+            ["canvas-confetti", "npm:1.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3883,10 +3903,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:11.10.5"],\
             ["@mui/material", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:5.11.7"],\
             ["@next/font", "npm:13.1.6"],\
+            ["@types/canvas-confetti", "npm:1.6.0"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["autoprefixer", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:10.4.13"],\
+            ["canvas-confetti", "npm:1.6.0"],\
             ["eslint", "npm:8.32.0"],\
             ["eslint-config-next", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:13.1.6"],\
             ["next", "virtual:e84d072c669741def2ef7c52fe70a358bbf8de05ffcaa37333049575e8179581ede03e84c3893255ea6dd6bd913fb86e3bb2421eaff999225c98e5f1ad62814d#npm:13.1.6"],\

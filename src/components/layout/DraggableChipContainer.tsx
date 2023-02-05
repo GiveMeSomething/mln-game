@@ -2,11 +2,11 @@ import { Chip } from '@/types/Chip';
 import { ItemTypes } from '@/types/ItemTypes';
 import { useEffect, useMemo, useState } from 'react';
 import { useDrop } from 'react-dnd';
-import { ChipItemInfo, TextChip } from '../common/TextChip';
+import { ChipColor, ChipItemInfo, TextChip } from '../common/TextChip';
 
 export interface DraggableChipContainerProps {
   chips?: Chip[];
-  checkDrop?: (dropChip: Chip) => void;
+  checkDrop?: (dropChip: Chip) => boolean;
 }
 
 export const DraggableChipContainer = (props: DraggableChipContainerProps) => {
@@ -39,13 +39,15 @@ export const DraggableChipContainer = (props: DraggableChipContainerProps) => {
       const { chipInfo, removeChip } = monitor;
 
       removeChip(chipInfo);
-      setCurrentChips((prev) => [...prev, chipInfo]);
 
-      if (checkDrop == null) {
-        return;
+      let isCorrectChip: boolean = false;
+      if (checkDrop != null) {
+        isCorrectChip = checkDrop(chipInfo);
       }
-
-      checkDrop(chipInfo);
+      setCurrentChips((prev) => [
+        ...prev,
+        { ...chipInfo, correct: isCorrectChip },
+      ]);
     },
   }));
 
@@ -55,18 +57,22 @@ export const DraggableChipContainer = (props: DraggableChipContainerProps) => {
 
   const renderChips = useMemo(() => {
     if (currentChips.length === 0) {
-      return <p className="text-gray-500">Drop here</p>;
+      return <p className="text-gray-500 py-3 mx-auto">Drop here</p>;
     }
 
     return currentChips.map((chip) => (
       <div className="m-2" key={chip.id}>
-        <TextChip chipInfo={chip} removeChip={removeChip} />
+        <TextChip
+          chipInfo={chip}
+          removeChip={removeChip}
+          chipColor={(chip as any).correct ? ChipColor.GREEN : ChipColor.RED}
+        />
       </div>
     ));
   }, [currentChips]);
 
   return (
-    <div className="w-full h-full text-center py-2" ref={drop}>
+    <div className="w-full h-full text-center p-2" ref={drop}>
       <div className="flex flex-wrap">{renderChips}</div>
     </div>
   );
